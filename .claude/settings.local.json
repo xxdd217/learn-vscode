@@ -1,0 +1,8 @@
+{
+  "customSlashCommands": {
+    "save": {
+      "description": "一键 git add、commit、push",
+      "prompt": "请执行以下 git 操作：\n1. git add .\n2. git commit -m \"用户提交\"\n3. git push\n\n如果 push 失败，不要报错，告诉用户原因即可。"
+    }
+  }
+}
